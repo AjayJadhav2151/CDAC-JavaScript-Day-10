@@ -1,0 +1,4 @@
+console.log("Hello from node....");
+
+D:\CDAC Code data\Web Programming\Day10>node firstnode.js
+Hello from node....

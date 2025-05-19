@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 90vh;
+            display: grid;
+            place-items: center;
+        }
+        #outerdiv{
+            margin: 0% 15% 0 15%;
+            border: 1px solid black;
+        }
+        .aligndiv{
+            display: flex;
+            background-color: green;
+        }
+        p{
+            padding: 25px;
+            background-color: greenyellow;
+        }
+        button{
+            margin: 15px 10px 5px 450px ;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="outerdiv">
+        <div>
+            <div class="aligndiv">
+                <h1>Question One Sample Text</h1>
+                <button class="btn">X</button>
+            </div>
+            <p class="details">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
+                accusantium consectetur iusto, magni molestias explicabo harum, maxime
+                repudiandae nostrum nesciunt, quam officiis magnam dolorum. Accusantium
+                quisquam quae natus incidunt esse?
+            </p>
+        </div>
+        <hr>
+    <div>
+        <div class="aligndiv">
+            <h1>Question One Sample Text</h1>
+            <button class="btn">X</button>
+        </div>
+        <p class="details">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
+            accusantium consectetur iusto, magni molestias explicabo harum, maxime
+            repudiandae nostrum nesciunt, quam officiis magnam dolorum. Accusantium
+            quisquam quae natus incidunt esse?
+        </p>
+    </div>
+    <hr>
+    <div>
+        <div class="aligndiv">
+            <h1>Question One Sample Text</h1>
+            <button class="btn">X</button>
+        </div>
+        <p class="details">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
+            accusantium consectetur iusto, magni molestias explicabo harum, maxime
+            repudiandae nostrum nesciunt, quam officiis magnam dolorum. Accusantium
+            quisquam quae natus incidunt esse?
+        </p>
+    </div>
+    <hr>
+    <div>
+        <div class="aligndiv">
+            <h1>Question One Sample Text</h1>
+            <button class="btn">X</button>
+        </div>
+        <p class="details">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
+            accusantium consectetur iusto, magni molestias explicabo harum, maxime
+            repudiandae nostrum nesciunt, quam officiis magnam dolorum. Accusantium
+            quisquam quae natus incidunt esse?
+        </p>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+       $(document).ready(function () {
+        // alert("Done.....");
+        $(".btn").click(function () {
+            // $(".details").toggle(2000);
+            $(this).parent().next().remove();
+            // $(this).parent().next().empty();
+        })
+      });
+</script>
+</body>
+</html>

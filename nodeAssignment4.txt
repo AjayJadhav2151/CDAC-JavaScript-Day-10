@@ -1,0 +1,9 @@
+
+D:\CDAC Code data\Web Programming\Day10>node
+Welcome to Node.js v22.13.1.
+Type ".help" for more information.
+> console.log("Hello World....");
+Hello World....
+undefined
+>
+
